@@ -17,7 +17,7 @@ Use `colcon build` to build the package then `source install/setup.bash`.<br>
 
 Lastly type `ros2 run picamera2_for_ros2_pkg cameratotopic_node` to start the node.<br><br>
 
-Check your topic with `ros2 topic echo /image`
+Check your topic with `ros2 topic echo /image`.
 
 ## Known issues
 This is not the best implementation for publishing images using your Raspberry Pi. A C++ version would be much better.
