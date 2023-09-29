@@ -9,7 +9,7 @@ This just a simple publisher node that extracts camera data from Raspberry Pi 4'
 
 3. Colcon. Build your packages. Install with `pip install colcon-ros`. It should install colcon-common-extensions and many others.
 
-4. ROS Cv-Bridge. Converts from Picamera2 camera capture array to ROS messages. Install with `sudo apt-get install python3-cv-bridge`<br><br>
+4. ROS Cv-Bridge. Converts from Picamera2 camera capture array to ROS messages. Install with `sudo apt-get install python3-cv-bridge`.<br><br>
 
 Create a ROS2 workspace using `mkdir -p ~/ros2_ws/src` then `cd ~/ros2_ws/src` and clone my package in this directory.<br>
 
